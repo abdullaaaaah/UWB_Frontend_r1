@@ -1,0 +1,18 @@
+/* ViewSite.css */
+
+/* Styles for the gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Styles for each site item */
+  .site-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  

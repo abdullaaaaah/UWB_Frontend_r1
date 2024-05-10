@@ -1,0 +1,124 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  /*background-color: #b61813;*/
+  background-color: #831919;;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.company-logo {
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: auto; /* Push the logo to the left */
+}
+
+.header-text {
+  margin-left: 175px;
+}
+
+.button-menu {
+  display: flex; /* Use flexbox */
+  gap: 10px; /* Add space between buttons */
+  margin-left: auto; /* Push the button menu to the right */
+}
+
+.main {
+  padding: 20px;
+}
+
+.image-container {
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.image-container img {
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+
+ .anchor-point {
+  position: absolute;
+  background-color: rgb(151, 27, 27);
+  
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /*transform: translate(-50%, -50%); /* Center the anchor point */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.anchor-coordinates {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anchor-coordinates div {
+  margin-bottom: 10px;
+}
+
+.anchor-coordinates label {
+  margin-right: 10px;
+}
+
+.anchor-coordinates input {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.button-menu button {
+  background-color: #7b828a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.button-menu button:hover {
+  background-color: #0056b3;
+}
+
+.white-point {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  /* Set initial position */
+  left: 25%;
+  top: 25%;
+  transform: translate(25%, 25%);
+  /* Add additional styles as needed */
+}
