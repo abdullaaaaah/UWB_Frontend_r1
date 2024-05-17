@@ -136,7 +136,8 @@ useEffect(() => {
     ></div>
   );
 })}
-
+{console.log("Image Width: ", imageWidth)}
+{console.log("Image Height: ", imageHeight)}
 {/* Plotting anchors */}
 {anchors.map((anchor, index) => (
   <div
